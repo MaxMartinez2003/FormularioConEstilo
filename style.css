@@ -1,0 +1,74 @@
+/* Estilos para el cuerpo del formulario */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Gradiente de azul claro a verde claro */
+    background-image: linear-gradient(to bottom, #0c10f5, #69f50c); 
+}
+
+/* Estilos para la tarjeta */
+.card {
+    width: 80%;
+    max-width: 600px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin: 50px auto;
+    border: none; /* Eliminar los bordes alrededor de la tarjeta */
+}
+
+/* Estilos para los títulos de las secciones */
+legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Estilos para etiquetas de campo obligatorias */
+label[required] {
+    color: #ff5733; /* Rojo */
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Estilos para los botones */
+button[type="submit"],
+button[type="reset"] {
+    padding: 14px 28px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los enlaces de justificación */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

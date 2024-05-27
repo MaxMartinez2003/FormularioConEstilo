@@ -1,0 +1,8 @@
+/* Estilos para el cursor */
+body {
+    cursor: crosshair; /* Cursor con forma de cruz por defecto */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    cursor: text; /* Cursor similar a una i mayúscula cuando se pasa sobre títulos de sección */
+}

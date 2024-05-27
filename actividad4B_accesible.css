@@ -1,0 +1,49 @@
+/* Importar estilos del CSS principal */
+@import url('style.css');
+
+/* Estilos para el cuerpo del formulario */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Patrón de colores de Windows para accesibilidad */
+    background-color: #f0f0f0; /* Fondo ligeramente más oscuro para mejorar el contraste */
+    color: #000000; /* Texto negro */
+    line-height: 1.6; /* Mayor altura de línea para mejorar la legibilidad */
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    border-color: #000000; /* Borde negro */
+    padding: 10px; /* Aumentar el espacio interno para facilitar la interacción */
+    border-radius: 5px; /* Bordes más redondeados */
+    margin-bottom: 15px; /* Mayor espacio entre campos */
+}
+
+/* Estilos para los botones */
+button[type="submit"],
+button[type="reset"] {
+    background-color: #007bff; /* Color azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007bff; /* Texto azul */
+}
+
+a:hover {
+    color: #004d99; /* Azul más oscuro al pasar el mouse */
+}
