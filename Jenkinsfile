@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/usuario/repositorio.git'
+                git 'https://github.com/MaxMartinez2003/FormularioConEstilo.git'
             }
         }
         stage('Install dependencies') {
